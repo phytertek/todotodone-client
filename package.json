@@ -2,11 +2,11 @@
   "name": "todotodone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://phytertek.github.io/todotodone-client/",
   "dependencies": {
     "@material-ui/core": "^1.1.0",
     "@material-ui/icons": "^1.1.0",
     "axios": "^0.18.0",
-    "gh-pages": "^1.1.0",
     "history": "^4.7.2",
     "mrdux": "^2.0.8",
     "react": "^16.4.0",
@@ -20,6 +20,8 @@
     "redux-persist-transform-encrypt": "^2.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
