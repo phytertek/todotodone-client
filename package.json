@@ -2,7 +2,6 @@
   "name": "todotodone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://phytertek.github.io/todotodone-client/",
   "dependencies": {
     "@material-ui/core": "^1.1.0",
     "@material-ui/icons": "^1.1.0",
